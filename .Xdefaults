@@ -1,0 +1,10 @@
+URxvt.transparent: false
+!URxvt.shading: 80
+URxvt.termName: rxvt-256color
+URxvt.font: -*-terminus-*-*-*-*-16-*-*-*-*-*-*-*
+URxvt.scrollBar: false
+URxvt.depth: 32
+
+URxvt*buffered: true
+URxvt*fading: 2%
+URxvt.background: rgba:0000/0000/0200/c800
