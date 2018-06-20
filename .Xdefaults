@@ -8,3 +8,5 @@ URxvt.depth: 32
 URxvt*buffered: true
 URxvt*fading: 2%
 URxvt.background: rgba:0000/0000/0200/c800
+URxvt.internalBorder: 0
+URxvt.shading: 99

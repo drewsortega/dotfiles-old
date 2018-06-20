@@ -4,7 +4,7 @@
 # Should you change your keyboard layout some time, delete
 # this file and re-run i3-config-wizard(1).
 #
-
+exec xmodmap ~/.Xmodmap
 # i3 config file (v4)
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
@@ -56,7 +56,7 @@ exec_always --no-startup-id ~/scripts/polybar_launch.sh
 gaps inner 10
 gaps outer 5
 
-#disable window titlebar
+#dsable window titlebar
 for_window [class="^.*"] border pixel 1
 #function keys
 bindsym XF86MonBrightnessUp exec ~/scripts/brightnessUp.sh
@@ -123,6 +123,7 @@ bindsym $mod+e layout toggle split
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
 
+# bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 # change focus between tiling / floating windows
 bindsym $mod+space focus mode_toggle
 
