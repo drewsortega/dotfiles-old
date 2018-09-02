@@ -24,7 +24,7 @@ mod3 + alt + Escape
 
 # close and kill
 mod3 + {_,shift + }q
-	bspc node -{c,k}
+	bspc node -{c}
 
 # alternate between the tiled and monocle layout
 mod3 + m
@@ -119,3 +119,9 @@ mod3 + alt + shift + {h,j,k,l}
 # move a floating window
 mod3 + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
+
+XF86MonBrightnessDown
+        ~/scripts/brightnessDown.sh
+
+XF86MonBrightnessUp
+        ~/scripts/brightnessUp.sh

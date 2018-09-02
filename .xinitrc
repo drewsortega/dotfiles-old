@@ -4,4 +4,4 @@ export SSH_AUTH_SOCK
 
 [[ -f ~/.Xmodmap ]] && xmodmap ~/.Xmodmap
 
-exec bspwm
+exec startkre

@@ -1,0 +1,2 @@
+#!/bin/sh
+sshfs drew.ortega@syccuxas01.pcc.edu ~/pcc 
